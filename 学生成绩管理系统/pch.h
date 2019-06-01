@@ -8,7 +8,24 @@
 
 #ifndef PCH_H
 #define PCH_H
+struct Course
+{
+	int year; // 该课的年份
+	char A_course[64];//课程
+	double dayGrade;//平时
+	double examGrade;//考试
+	double totalGrade;//总评
+};
+struct Student
+{
+	char id[64];//id
+	char name[64];//名字
+	char Class[64];//班级
+	struct Course Acourse[2][3]; //代表两个学期的三门课 
+	double TotalGrade[2];
 
+	struct Student * next;
+};
 // TODO: 添加要在此处预编译的标头
 
 #endif //PCH_H

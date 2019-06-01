@@ -20,10 +20,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="学生成绩管理系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="学生成绩管理系统.cpp">
+    <ClCompile Include="fuction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
