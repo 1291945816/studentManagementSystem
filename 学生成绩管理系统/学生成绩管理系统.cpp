@@ -7,7 +7,6 @@
 #include<stdio.h>
 #include<windows.h>
 
-int M_year = 0;
 extern int deleteStudent(struct Student * list, char * m, int t);
 extern void printStudntInfo(struct Student * list,int t,struct Student * q);
 extern	void saveStudentInfo(struct Student * list,int m);
